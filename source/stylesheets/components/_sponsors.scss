@@ -52,7 +52,8 @@
 
         &.details {
           font-size: 1em;
-          text-transform: uppercase;
+          font-weight: bold;
+          color: $dark-gray;
         }
       }
 
@@ -63,7 +64,8 @@
 
       .addon {
         font-size: 1em;
-        color: $dark-gray;
+        font-weight: bold;
+        color: lighten($dark-gray, 40%);
       }
     }
   }
